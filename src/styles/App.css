@@ -1,1 +1,26 @@
-
+*{
+    margin: 0;
+}
+.parent{
+    background-color: greenyellow;
+    height: 320px;
+}
+.parent h1{
+    margin-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.childOne{
+    background-color: orangered;
+    margin: 0rem 1rem;
+    padding: 1rem;
+}
+.childTwo{
+    background-color: yellow;
+    margin: 0rem 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+.parent p{
+    margin-left: 1rem;
+}
